@@ -22,7 +22,7 @@ Partial Class return_book
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.R_exit = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -41,21 +41,21 @@ Partial Class return_book
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
-        'Button3
+        'R_exit
         '
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(664, 395)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(122, 43)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Exit"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.R_exit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.R_exit.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.R_exit.Location = New System.Drawing.Point(664, 395)
+        Me.R_exit.Name = "R_exit"
+        Me.R_exit.Size = New System.Drawing.Size(122, 43)
+        Me.R_exit.TabIndex = 5
+        Me.R_exit.Text = "Exit from library"
+        Me.R_exit.UseVisualStyleBackColor = True
         '
         'Button2
         '
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(408, 395)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(122, 43)
@@ -66,7 +66,7 @@ Partial Class return_book
         'Button1
         '
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(536, 395)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(122, 43)
@@ -80,9 +80,9 @@ Partial Class return_book
         Me.Label1.Font = New System.Drawing.Font("Cambria", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(181, 87)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(176, 19)
+        Me.Label1.Size = New System.Drawing.Size(108, 19)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "1. Enrollment Number "
+        Me.Label1.Text = "1. Student Id "
         '
         'Label2
         '
@@ -90,9 +90,9 @@ Partial Class return_book
         Me.Label2.Font = New System.Drawing.Font("Cambria", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(181, 127)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(108, 19)
+        Me.Label2.Size = New System.Drawing.Size(84, 19)
         Me.Label2.TabIndex = 7
-        Me.Label2.Text = "2. Book name"
+        Me.Label2.Text = "2. Book ID"
         '
         'Label3
         '
@@ -215,17 +215,17 @@ Partial Class return_book
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.R_exit)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "return_book"
-        Me.Text = "  "
+        Me.Text = "                             "
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button3 As Button
+    Friend WithEvents R_exit As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label

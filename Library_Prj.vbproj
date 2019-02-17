@@ -150,9 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="return_book.resx">
       <DependentUpon>return_book.vb</DependentUpon>
@@ -186,7 +186,7 @@
     <None Include="is.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="search image.png" />
+    <None Include="back.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
