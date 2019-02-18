@@ -37,12 +37,12 @@ Public Class Form2
         Try
             connection.Open()
             Dim query As String
-            query = "select *from student_details.stud_info,book.books"
+            query = "select *from student_details.stud_info,student_details.book_info"
             command = New MySqlCommand(query, connection)
             sda.SelectCommand = command
             sda.Fill(dbDataset)
             bSource.DataSource = dbDataset
-            display_record.DataGridView1.DataSource = bSource
+            display_record.book_details.DataSource = bSource
             sda.Update(dbDataset)
             connection.Close()
 
@@ -57,10 +57,15 @@ Public Class Form2
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label12.Click
         Me.Close()
-        Form1.Show()
+        Form1.Close()
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
+        Form1.Show()
     End Sub
 End Class
