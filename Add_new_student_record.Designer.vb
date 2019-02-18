@@ -29,21 +29,26 @@ Partial Class Add_new_student_record
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.fname = New System.Windows.Forms.TextBox()
+        Me.stud_id = New System.Windows.Forms.TextBox()
+        Me.section = New System.Windows.Forms.TextBox()
+        Me.address = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.mbno = New System.Windows.Forms.TextBox()
+        Me.mname = New System.Windows.Forms.TextBox()
+        Me.lname = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(538, 395)
+        Me.Button1.Font = New System.Drawing.Font("Cambria", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(575, 410)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(122, 43)
+        Me.Button1.Size = New System.Drawing.Size(85, 28)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = True
@@ -51,11 +56,11 @@ Partial Class Add_new_student_record
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(410, 395)
+        Me.Button2.Location = New System.Drawing.Point(306, 393)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(122, 43)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Save"
+        Me.Button2.Text = "ADD"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -72,7 +77,7 @@ Partial Class Add_new_student_record
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(159, 151)
+        Me.Label1.Location = New System.Drawing.Point(164, 118)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(193, 22)
         Me.Label1.TabIndex = 3
@@ -82,7 +87,7 @@ Partial Class Add_new_student_record
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(159, 187)
+        Me.Label2.Location = New System.Drawing.Point(164, 239)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(145, 22)
         Me.Label2.TabIndex = 4
@@ -92,7 +97,7 @@ Partial Class Add_new_student_record
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(159, 223)
+        Me.Label3.Location = New System.Drawing.Point(164, 275)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(117, 22)
         Me.Label3.TabIndex = 5
@@ -102,44 +107,44 @@ Partial Class Add_new_student_record
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(159, 258)
+        Me.Label4.Location = New System.Drawing.Point(164, 310)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(126, 22)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Enter Address" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'TextBox1
+        'fname
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(405, 155)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(255, 20)
-        Me.TextBox1.TabIndex = 7
+        Me.fname.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fname.Location = New System.Drawing.Point(497, 121)
+        Me.fname.Name = "fname"
+        Me.fname.Size = New System.Drawing.Size(168, 23)
+        Me.fname.TabIndex = 7
         '
-        'TextBox2
+        'stud_id
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(405, 191)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(255, 22)
-        Me.TextBox2.TabIndex = 8
+        Me.stud_id.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stud_id.Location = New System.Drawing.Point(410, 243)
+        Me.stud_id.Name = "stud_id"
+        Me.stud_id.Size = New System.Drawing.Size(255, 22)
+        Me.stud_id.TabIndex = 8
         '
-        'TextBox3
+        'section
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(405, 227)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(255, 22)
-        Me.TextBox3.TabIndex = 9
+        Me.section.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.section.Location = New System.Drawing.Point(410, 279)
+        Me.section.Name = "section"
+        Me.section.Size = New System.Drawing.Size(255, 22)
+        Me.section.TabIndex = 9
         '
-        'TextBox4
+        'address
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(405, 262)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(255, 22)
-        Me.TextBox4.TabIndex = 10
+        Me.address.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.address.Location = New System.Drawing.Point(410, 314)
+        Me.address.Multiline = True
+        Me.address.Name = "address"
+        Me.address.Size = New System.Drawing.Size(255, 20)
+        Me.address.TabIndex = 10
         '
         'Label5
         '
@@ -155,19 +160,65 @@ Partial Class Add_new_student_record
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Cambria", 14.25!)
-        Me.Label6.Location = New System.Drawing.Point(159, 295)
+        Me.Label6.Location = New System.Drawing.Point(164, 347)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(185, 22)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "Enter Mobile Number"
         '
-        'TextBox5
+        'mbno
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(405, 297)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(255, 22)
-        Me.TextBox5.TabIndex = 13
+        Me.mbno.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mbno.Location = New System.Drawing.Point(410, 349)
+        Me.mbno.Name = "mbno"
+        Me.mbno.Size = New System.Drawing.Size(255, 22)
+        Me.mbno.TabIndex = 13
+        '
+        'mname
+        '
+        Me.mname.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mname.Location = New System.Drawing.Point(497, 163)
+        Me.mname.Name = "mname"
+        Me.mname.Size = New System.Drawing.Size(168, 23)
+        Me.mname.TabIndex = 14
+        '
+        'lname
+        '
+        Me.lname.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lname.Location = New System.Drawing.Point(497, 201)
+        Me.lname.Name = "lname"
+        Me.lname.Size = New System.Drawing.Size(168, 23)
+        Me.lname.TabIndex = 15
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(405, 125)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(72, 15)
+        Me.Label7.TabIndex = 16
+        Me.Label7.Text = "First name"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(405, 166)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(86, 15)
+        Me.Label8.TabIndex = 17
+        Me.Label8.Text = "Middle name"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(407, 206)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(69, 15)
+        Me.Label9.TabIndex = 18
+        Me.Label9.Text = "Last name"
         '
         'Add_new_student_record
         '
@@ -175,13 +226,18 @@ Partial Class Add_new_student_record
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.lname)
+        Me.Controls.Add(Me.mname)
+        Me.Controls.Add(Me.mbno)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.address)
+        Me.Controls.Add(Me.section)
+        Me.Controls.Add(Me.stud_id)
+        Me.Controls.Add(Me.fname)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -203,11 +259,16 @@ Partial Class Add_new_student_record
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents fname As TextBox
+    Friend WithEvents stud_id As TextBox
+    Friend WithEvents section As TextBox
+    Friend WithEvents address As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents mbno As TextBox
+    Friend WithEvents mname As TextBox
+    Friend WithEvents lname As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class

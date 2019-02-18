@@ -61,7 +61,7 @@ Partial Class display_record
         Me.GroupBox1.Size = New System.Drawing.Size(892, 382)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Book Details"
+        Me.GroupBox1.Text = "Student Details"
         '
         'book_details
         '
@@ -69,6 +69,7 @@ Partial Class display_record
         Me.book_details.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.book_details.Location = New System.Drawing.Point(15, 16)
         Me.book_details.Name = "book_details"
+        Me.book_details.ReadOnly = True
         Me.book_details.Size = New System.Drawing.Size(863, 351)
         Me.book_details.TabIndex = 7
         '

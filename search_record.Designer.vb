@@ -27,9 +27,7 @@ Partial Class search_record
         Me.Button3 = New System.Windows.Forms.Button()
         Me.l1srch_rcrd = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.t_enrol_no = New System.Windows.Forms.TextBox()
-        Me.t_stud_name = New System.Windows.Forms.TextBox()
+        Me.stud_id = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -73,37 +71,18 @@ Partial Class search_record
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(160, 160)
+        Me.Label1.Location = New System.Drawing.Point(131, 186)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(156, 22)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Enter Student's Id"
         '
-        'Label2
+        'stud_id
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(160, 222)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(186, 22)
-        Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Enter Student's Name"
-        '
-        't_enrol_no
-        '
-        Me.t_enrol_no.Location = New System.Drawing.Point(382, 162)
-        Me.t_enrol_no.Name = "t_enrol_no"
-        Me.t_enrol_no.Size = New System.Drawing.Size(219, 20)
-        Me.t_enrol_no.TabIndex = 9
-        '
-        't_stud_name
-        '
-        Me.t_stud_name.Location = New System.Drawing.Point(382, 224)
-        Me.t_stud_name.Multiline = True
-        Me.t_stud_name.Name = "t_stud_name"
-        Me.t_stud_name.Size = New System.Drawing.Size(219, 20)
-        Me.t_stud_name.TabIndex = 10
+        Me.stud_id.Location = New System.Drawing.Point(353, 188)
+        Me.stud_id.Name = "stud_id"
+        Me.stud_id.Size = New System.Drawing.Size(219, 20)
+        Me.stud_id.TabIndex = 9
         '
         'Button2
         '
@@ -125,9 +104,7 @@ Partial Class search_record
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(799, 450)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.t_stud_name)
-        Me.Controls.Add(Me.t_enrol_no)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.stud_id)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.l1srch_rcrd)
         Me.Controls.Add(Me.Button3)
@@ -143,8 +120,6 @@ Partial Class search_record
     Friend WithEvents Button3 As Button
     Friend WithEvents l1srch_rcrd As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents t_enrol_no As TextBox
-    Friend WithEvents t_stud_name As TextBox
+    Friend WithEvents stud_id As TextBox
     Friend WithEvents Button2 As Button
 End Class

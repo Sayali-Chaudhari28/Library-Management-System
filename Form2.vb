@@ -37,7 +37,7 @@ Public Class Form2
         Try
             connection.Open()
             Dim query As String
-            query = "select *from student_details.stud_info,student_details.book_info"
+            query = "select *from student_details.stud_info"
             command = New MySqlCommand(query, connection)
             sda.SelectCommand = command
             sda.Fill(dbDataset)
