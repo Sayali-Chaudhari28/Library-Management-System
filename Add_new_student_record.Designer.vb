@@ -34,6 +34,8 @@ Partial Class Add_new_student_record
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -70,41 +72,41 @@ Partial Class Add_new_student_record
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(177, 151)
+        Me.Label1.Location = New System.Drawing.Point(159, 151)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(144, 22)
+        Me.Label1.Size = New System.Drawing.Size(193, 22)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Name of Student"
+        Me.Label1.Text = "Enter Name of Student"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(177, 187)
+        Me.Label2.Location = New System.Drawing.Point(159, 187)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(96, 22)
+        Me.Label2.Size = New System.Drawing.Size(145, 22)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Student ID"
+        Me.Label2.Text = "Enter Student ID"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(177, 223)
+        Me.Label3.Location = New System.Drawing.Point(159, 223)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(68, 22)
+        Me.Label3.Size = New System.Drawing.Size(117, 22)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Section"
+        Me.Label3.Text = "Enter Section"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(177, 258)
+        Me.Label4.Location = New System.Drawing.Point(159, 258)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(77, 22)
+        Me.Label4.Size = New System.Drawing.Size(126, 22)
         Me.Label4.TabIndex = 6
-        Me.Label4.Text = "Address" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label4.Text = "Enter Address" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TextBox1
         '
@@ -149,12 +151,32 @@ Partial Class Add_new_student_record
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "Add New Student Record"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Cambria", 14.25!)
+        Me.Label6.Location = New System.Drawing.Point(159, 295)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(185, 22)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Enter Mobile Number"
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(405, 297)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(255, 22)
+        Me.TextBox5.TabIndex = 13
+        '
         'Add_new_student_record
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
@@ -186,4 +208,6 @@ Partial Class Add_new_student_record
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox5 As TextBox
 End Class

@@ -1,4 +1,8 @@
-﻿Public Class Form2
+﻿Imports MySql.Data.MySqlClient
+Public Class Form2
+    Dim connection As MySqlConnection
+    Dim command As MySqlCommand
+
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click, Label7.Click
         Add_new_student_record.Show()
         Me.Close()
@@ -25,6 +29,29 @@
 
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label11.Click
         display_record.Show()
+        connection = New MySqlConnection
+        connection.ConnectionString = "server = localhost;userid=root;password= sarthak333;database = student_details"
+        Dim sda As New MySqlDataAdapter
+        Dim dbDataset As New DataTable
+        Dim bSource As New BindingSource
+        Try
+            connection.Open()
+            Dim query As String
+            query = "select *from student_details.stud_info,book.books"
+            command = New MySqlCommand(query, connection)
+            sda.SelectCommand = command
+            sda.Fill(dbDataset)
+            bSource.DataSource = dbDataset
+            display_record.DataGridView1.DataSource = bSource
+            sda.Update(dbDataset)
+            connection.Close()
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        Finally
+            connection.Dispose()
+
+        End Try
         Me.Hide()
     End Sub
 

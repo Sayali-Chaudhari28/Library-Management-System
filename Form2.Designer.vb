@@ -30,6 +30,7 @@ Partial Class Form2
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -51,11 +52,11 @@ Partial Class Form2
         Me.Label7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label7.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(251, 134)
+        Me.Label7.Location = New System.Drawing.Point(235, 112)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(318, 25)
+        Me.Label7.Size = New System.Drawing.Size(333, 25)
         Me.Label7.TabIndex = 6
-        Me.Label7.Text = "1          Add New Student Record"
+        Me.Label7.Text = "1          Add New Student's Record"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label8
@@ -65,11 +66,11 @@ Partial Class Form2
         Me.Label8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label8.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(251, 180)
+        Me.Label8.Location = New System.Drawing.Point(235, 158)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(215, 25)
+        Me.Label8.Size = New System.Drawing.Size(312, 25)
         Me.Label8.TabIndex = 7
-        Me.Label8.Text = "2          Search Record"
+        Me.Label8.Text = "2          Search Student's Record"
         '
         'Label9
         '
@@ -78,7 +79,7 @@ Partial Class Form2
         Me.Label9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label9.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(251, 224)
+        Me.Label9.Location = New System.Drawing.Point(235, 202)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(190, 25)
         Me.Label9.TabIndex = 8
@@ -91,11 +92,11 @@ Partial Class Form2
         Me.Label10.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label10.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(251, 270)
+        Me.Label10.Location = New System.Drawing.Point(235, 248)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(198, 25)
+        Me.Label10.Size = New System.Drawing.Size(208, 25)
         Me.Label10.TabIndex = 9
-        Me.Label10.Text = "4          Return Book"
+        Me.Label10.Text = "4          Return Books"
         '
         'Label11
         '
@@ -104,11 +105,11 @@ Partial Class Form2
         Me.Label11.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label11.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(251, 315)
+        Me.Label11.Location = New System.Drawing.Point(235, 293)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(271, 25)
+        Me.Label11.Size = New System.Drawing.Size(363, 25)
         Me.Label11.TabIndex = 10
-        Me.Label11.Text = "5          Display all Records !"
+        Me.Label11.Text = "5          Display all Students Records !"
         '
         'Label12
         '
@@ -117,11 +118,24 @@ Partial Class Form2
         Me.Label12.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label12.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(251, 357)
+        Me.Label12.Location = New System.Drawing.Point(235, 386)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(243, 25)
         Me.Label12.TabIndex = 11
-        Me.Label12.Text = "6          Exit from Library"
+        Me.Label12.Text = "7          Exit from Library"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label2.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(235, 340)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(363, 25)
+        Me.Label2.TabIndex = 12
+        Me.Label2.Text = "6          Display all Students Records !"
         '
         'Form2
         '
@@ -130,6 +144,7 @@ Partial Class Form2
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(787, 458)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
@@ -151,4 +166,5 @@ Partial Class Form2
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
+    Friend WithEvents Label2 As Label
 End Class

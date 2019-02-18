@@ -73,22 +73,22 @@ Partial Class search_record
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(172, 160)
+        Me.Label1.Location = New System.Drawing.Point(160, 160)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(94, 22)
+        Me.Label1.Size = New System.Drawing.Size(156, 22)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Student Id"
+        Me.Label1.Text = "Enter Student's Id"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(172, 222)
+        Me.Label2.Location = New System.Drawing.Point(160, 222)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(137, 22)
+        Me.Label2.Size = New System.Drawing.Size(186, 22)
         Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Student's Name"
+        Me.Label2.Text = "Enter Student's Name"
         '
         't_enrol_no
         '
