@@ -46,9 +46,10 @@ Partial Class Add_new_student_record
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Cambria", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(575, 410)
+        Me.Button1.Location = New System.Drawing.Point(862, 631)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(85, 28)
+        Me.Button1.Size = New System.Drawing.Size(128, 43)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = True
@@ -56,9 +57,10 @@ Partial Class Add_new_student_record
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(306, 393)
+        Me.Button2.Location = New System.Drawing.Point(459, 605)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(122, 43)
+        Me.Button2.Size = New System.Drawing.Size(183, 66)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "ADD"
         Me.Button2.UseVisualStyleBackColor = True
@@ -66,9 +68,10 @@ Partial Class Add_new_student_record
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(666, 395)
+        Me.Button3.Location = New System.Drawing.Point(999, 608)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(122, 43)
+        Me.Button3.Size = New System.Drawing.Size(183, 66)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Exit from Library !"
         Me.Button3.UseVisualStyleBackColor = True
@@ -77,9 +80,10 @@ Partial Class Add_new_student_record
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(164, 118)
+        Me.Label1.Location = New System.Drawing.Point(246, 182)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(193, 22)
+        Me.Label1.Size = New System.Drawing.Size(294, 34)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Enter Name of Student"
         '
@@ -87,9 +91,10 @@ Partial Class Add_new_student_record
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(164, 239)
+        Me.Label2.Location = New System.Drawing.Point(246, 368)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(145, 22)
+        Me.Label2.Size = New System.Drawing.Size(220, 34)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Enter Student ID"
         '
@@ -97,9 +102,10 @@ Partial Class Add_new_student_record
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(164, 275)
+        Me.Label3.Location = New System.Drawing.Point(246, 423)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(117, 22)
+        Me.Label3.Size = New System.Drawing.Size(180, 34)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Enter Section"
         '
@@ -107,52 +113,58 @@ Partial Class Add_new_student_record
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(164, 310)
+        Me.Label4.Location = New System.Drawing.Point(246, 477)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(126, 22)
+        Me.Label4.Size = New System.Drawing.Size(190, 34)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Enter Address" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'fname
         '
         Me.fname.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fname.Location = New System.Drawing.Point(497, 121)
+        Me.fname.Location = New System.Drawing.Point(746, 186)
+        Me.fname.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.fname.Name = "fname"
-        Me.fname.Size = New System.Drawing.Size(168, 23)
+        Me.fname.Size = New System.Drawing.Size(250, 30)
         Me.fname.TabIndex = 7
         '
         'stud_id
         '
         Me.stud_id.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stud_id.Location = New System.Drawing.Point(410, 243)
+        Me.stud_id.Location = New System.Drawing.Point(615, 374)
+        Me.stud_id.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.stud_id.Name = "stud_id"
-        Me.stud_id.Size = New System.Drawing.Size(255, 22)
+        Me.stud_id.Size = New System.Drawing.Size(380, 30)
         Me.stud_id.TabIndex = 8
         '
         'section
         '
         Me.section.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.section.Location = New System.Drawing.Point(410, 279)
+        Me.section.Location = New System.Drawing.Point(615, 429)
+        Me.section.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.section.Name = "section"
-        Me.section.Size = New System.Drawing.Size(255, 22)
+        Me.section.Size = New System.Drawing.Size(380, 30)
         Me.section.TabIndex = 9
         '
         'address
         '
         Me.address.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.address.Location = New System.Drawing.Point(410, 314)
+        Me.address.Location = New System.Drawing.Point(615, 483)
+        Me.address.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.address.Multiline = True
         Me.address.Name = "address"
-        Me.address.Size = New System.Drawing.Size(255, 20)
+        Me.address.Size = New System.Drawing.Size(380, 29)
         Me.address.TabIndex = 10
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Mistral", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(231, 37)
+        Me.Label5.Location = New System.Drawing.Point(346, 57)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(310, 42)
+        Me.Label5.Size = New System.Drawing.Size(464, 64)
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "Add New Student Record"
         '
@@ -160,43 +172,48 @@ Partial Class Add_new_student_record
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Cambria", 14.25!)
-        Me.Label6.Location = New System.Drawing.Point(164, 347)
+        Me.Label6.Location = New System.Drawing.Point(246, 534)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(185, 22)
+        Me.Label6.Size = New System.Drawing.Size(283, 34)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "Enter Mobile Number"
         '
         'mbno
         '
         Me.mbno.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mbno.Location = New System.Drawing.Point(410, 349)
+        Me.mbno.Location = New System.Drawing.Point(615, 537)
+        Me.mbno.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.mbno.Name = "mbno"
-        Me.mbno.Size = New System.Drawing.Size(255, 22)
+        Me.mbno.Size = New System.Drawing.Size(380, 30)
         Me.mbno.TabIndex = 13
         '
         'mname
         '
         Me.mname.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mname.Location = New System.Drawing.Point(497, 163)
+        Me.mname.Location = New System.Drawing.Point(746, 251)
+        Me.mname.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.mname.Name = "mname"
-        Me.mname.Size = New System.Drawing.Size(168, 23)
+        Me.mname.Size = New System.Drawing.Size(250, 30)
         Me.mname.TabIndex = 14
         '
         'lname
         '
         Me.lname.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lname.Location = New System.Drawing.Point(497, 201)
+        Me.lname.Location = New System.Drawing.Point(746, 309)
+        Me.lname.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.lname.Name = "lname"
-        Me.lname.Size = New System.Drawing.Size(168, 23)
+        Me.lname.Size = New System.Drawing.Size(250, 30)
         Me.lname.TabIndex = 15
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(405, 125)
+        Me.Label7.Location = New System.Drawing.Point(608, 192)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(72, 15)
+        Me.Label7.Size = New System.Drawing.Size(108, 23)
         Me.Label7.TabIndex = 16
         Me.Label7.Text = "First name"
         '
@@ -204,9 +221,10 @@ Partial Class Add_new_student_record
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(405, 166)
+        Me.Label8.Location = New System.Drawing.Point(608, 255)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(86, 15)
+        Me.Label8.Size = New System.Drawing.Size(130, 23)
         Me.Label8.TabIndex = 17
         Me.Label8.Text = "Middle name"
         '
@@ -214,18 +232,19 @@ Partial Class Add_new_student_record
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(407, 206)
+        Me.Label9.Location = New System.Drawing.Point(610, 317)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(69, 15)
+        Me.Label9.Size = New System.Drawing.Size(104, 23)
         Me.Label9.TabIndex = 18
         Me.Label9.Text = "Last name"
         '
         'Add_new_student_record
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1200, 692)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -245,6 +264,7 @@ Partial Class Add_new_student_record
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Add_new_student_record"
         Me.Text = "Add_new_student_record"
         Me.ResumeLayout(False)

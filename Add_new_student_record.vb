@@ -22,7 +22,7 @@ Public Class Add_new_student_record
         Try
             connection.Open()
             Dim query As String
-            query = "insert into student_details.book_info (stud_id,fname,mname,lname,section,address,mbno)values('" & stud_id.Text & "','" & fname.Text & "','" & mname.Text & "','" & lname.Text & "','" & section.Text & "','" & address.Text & "','" & mbno.Text & "')"
+            query = "insert into student_details.stud_info (student_id,First_name,Middle_name,Last_name,Section,Address,Mobile_number)values('" & stud_id.Text & "','" & fname.Text & "','" & mname.Text & "','" & lname.Text & "','" & section.Text & "','" & address.Text & "','" & mbno.Text & "')"
             command = New MySqlCommand(query, connection)
             sda.SelectCommand = command
             sda.Fill(dbDataset)
